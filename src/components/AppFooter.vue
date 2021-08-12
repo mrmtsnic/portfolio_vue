@@ -1,5 +1,5 @@
 <template>
-  <v-footer padless elevation="20">
+  <v-footer padless elevation="20" fixed>
     <v-card tile width="100%" height="100%" dark>
       <v-card-text class="pa-1 text-center">
         <v-btn

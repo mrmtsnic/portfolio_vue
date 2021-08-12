@@ -2,12 +2,7 @@
   <v-app>
     <app-header></app-header>
 
-    <v-main>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/skills">Skills</router-link> |
-      <router-link to="/works">Works</router-link> |
-      <router-link to="/contact">Contact</router-link> |
+    <v-main class="my-0 mx-auto">
       <router-view />
     </v-main>
     <app-footer></app-footer>
@@ -33,5 +28,9 @@ export default {
 <style lang="scss">
 div {
   background-color: $main-color;
+}
+
+.v-main__wrap {
+  width: 800px;
 }
 </style>

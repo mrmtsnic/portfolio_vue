@@ -1,10 +1,9 @@
 <template>
   <header>
-    <v-app-bar app dark height="90" elevation="2">
+    <v-app-bar app dark height="90" elevation="0">
       <!-- ハンバーガーメニュー -->
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title class="text-h5">Shin's Portfolio</v-toolbar-title>
       <!-- メニュー -->
       <v-tabs dark right>
         <v-tabs-slider color="#3db680"></v-tabs-slider>
